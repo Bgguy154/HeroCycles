@@ -1,0 +1,70 @@
+<!-- ui/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Cycles – Price Configurator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hero Cycles – Price Configurator</h1>
+
+    <div class="form-group">
+      <label for="date">Pricing Date</label>
+      <input type="date" id="date" value="2016-12-15" />
+    </div>
+
+    <div class="form-group">
+      <label>Frame</label>
+      <select id="frame">
+        <option value="steel_frame">Steel Frame</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Handlebar & Brakes</label>
+      <select id="handlebar_brakes">
+        <option value="standard_handlebar">Standard Handlebar</option>
+        <option value="v_brakes">V‑Brakes</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Seating</label>
+      <select id="seating">
+        <option value="basic_saddle">Basic Saddle</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Wheels</label>
+      <select id="wheels">
+        <option value="standard_rim">Standard Rim</option>
+        <option value="tubeless_tyre">Tubeless Tyre</option>
+        <option value="tube">Tube</option>
+        <option value="spokes">Spokes</option>
+      </select>
+      <small>Select multiple using Ctrl/Cmd + click.</small>
+    </div>
+
+    <div class="form-group">
+      <label>Chain Assembly</label>
+      <select id="chain_assembly">
+        <option value="4_gear_assembly">4‑Gear Assembly</option>
+      </select>
+    </div>
+
+    <button id="compute">Calculate Price</button>
+
+    <div id="output" class="output">
+      <h2>Price Breakdown</h2>
+      <pre id="breakdown"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
