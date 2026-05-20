@@ -1,0 +1,120 @@
+[
+  {
+    "id": "steel_frame",
+    "name": "Steel Frame",
+    "component": "frame",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": "2016-11-30",
+        "price": 1100
+      },
+      {
+        "valid_from": "2016-12-01",
+        "valid_until": null,
+        "price": 1200
+      }
+    ]
+  },
+  {
+    "id": "standard_handlebar",
+    "name": "Standard Handlebar",
+    "component": "handlebar_brakes",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": null,
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": "v_brakes",
+    "name": "V‑Brakes",
+    "component": "handlebar_brakes",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": null,
+        "price": 450
+      }
+    ]
+  },
+  {
+    "id": "basic_saddle",
+    "name": "Basic Saddle",
+    "component": "seating",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": null,
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": "tubeless_tyre",
+    "name": "Tubeless Tyre",
+    "component": "wheels",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": "2016-11-30",
+        "price": 500
+      },
+      {
+        "valid_from": "2016-12-01",
+        "valid_until": null,
+        "price": 530
+      }
+    ]
+  },
+  {
+    "id": "standard_rim",
+    "name": "Standard Rim",
+    "component": "wheels",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": null,
+        "price": 300
+      }
+    ]
+  },
+  {
+    "id": "tube",
+    "name": "Tube",
+    "component": "wheels",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": null,
+        "price": 150
+      }
+    ]
+  },
+  {
+    "id": "spokes",
+    "name": "Spokes",
+    "component": "wheels",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": null,
+        "price": 200
+      }
+    ]
+  },
+  {
+    "id": "4_gear_assembly",
+    "name": "4‑Gear Assembly",
+    "component": "chain_assembly",
+    "price_history": [
+      {
+        "valid_from": "2016-01-01",
+        "valid_until": null,
+        "price": 950
+      }
+    ]
+  }
+]
